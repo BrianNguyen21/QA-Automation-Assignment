@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddToCartWorkflowTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-07T12:09:53" hostname="TOBIN" time="110.222">
+  <properties/>
+  <testcase name="verifyAddToCartWorkflow[0](laptop, 2)" classname="tests.AddToCartWorkflowTest" time="55.88"/>
+  <testcase name="verifyAddToCartWorkflow[1](tablet, 3)" classname="tests.AddToCartWorkflowTest" time="53.374"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[INFO] QAAutomation: Starting test setup with browser: chrome
+Jun 07, 2025 5:09:52 AM utils.DriverManager setDriver
+INFO: Setting up WebDriver for browser: chrome
+Jun 07, 2025 5:09:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 07, 2025 5:09:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.57. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 07, 2025 5:09:53 AM utils.DriverManager setDriver
+INFO: WebDriver setup completed successfully
+[INFO] QAAutomation: Test setup completed successfully
+[INFO] QAAutomation: === Testing laptop with quantity 2
+[INFO] QAAutomation: Step 5: Opening cart and updating quantity to 2
+[INFO] QAAutomation: Cart quantity updated to 2
+[INFO] QAAutomation: === laptop workflow completed successfully
+[INFO] QAAutomation: Starting test teardown
+Jun 07, 2025 5:10:49 AM utils.DriverManager quitDriver
+INFO: Closing WebDriver
+[INFO] QAAutomation: Test teardown completed
+[INFO] QAAutomation: Starting test setup with browser: chrome
+Jun 07, 2025 5:10:50 AM utils.DriverManager setDriver
+INFO: Setting up WebDriver for browser: chrome
+Jun 07, 2025 5:10:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 07, 2025 5:10:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.57. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 07, 2025 5:10:50 AM utils.DriverManager setDriver
+INFO: WebDriver setup completed successfully
+[INFO] QAAutomation: Test setup completed successfully
+[INFO] QAAutomation: === Testing tablet with quantity 3
+[INFO] QAAutomation: Step 5: Opening cart and updating quantity to 3
+[INFO] QAAutomation: Cart quantity updated to 3
+[INFO] QAAutomation: === tablet workflow completed successfully
+[INFO] QAAutomation: Starting test teardown
+Jun 07, 2025 5:11:44 AM utils.DriverManager quitDriver
+INFO: Closing WebDriver
+[INFO] QAAutomation: Test teardown completed
+]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+2025-06-07 05:09:52 [INFO] QAAutomation: Starting test setup with browser: chrome
+2025-06-07 05:09:53 [INFO] QAAutomation: Test setup completed successfully
+2025-06-07 05:09:53 [INFO] QAAutomation: === Testing laptop with quantity 2
+2025-06-07 05:10:21 [INFO] QAAutomation: Step 5: Opening cart and updating quantity to 2
+2025-06-07 05:10:49 [INFO] QAAutomation: Cart quantity updated to 2
+2025-06-07 05:10:49 [INFO] QAAutomation: === laptop workflow completed successfully
+2025-06-07 05:10:49 [INFO] QAAutomation: Starting test teardown
+2025-06-07 05:10:50 [INFO] QAAutomation: Test teardown completed
+2025-06-07 05:10:50 [INFO] QAAutomation: Starting test setup with browser: chrome
+2025-06-07 05:10:50 [INFO] QAAutomation: Test setup completed successfully
+2025-06-07 05:10:50 [INFO] QAAutomation: === Testing tablet with quantity 3
+2025-06-07 05:11:15 [INFO] QAAutomation: Step 5: Opening cart and updating quantity to 3
+2025-06-07 05:11:44 [INFO] QAAutomation: Cart quantity updated to 3
+2025-06-07 05:11:44 [INFO] QAAutomation: === tablet workflow completed successfully
+2025-06-07 05:11:44 [INFO] QAAutomation: Starting test teardown
+2025-06-07 05:11:44 [INFO] QAAutomation: Test teardown completed
+2025-06-07 05:11:44 [INFO] QAAutomation: Test suite execution completed

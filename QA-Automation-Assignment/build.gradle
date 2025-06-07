@@ -1,0 +1,42 @@
+// build.gradle
+plugins {
+    id 'java'
+}
+
+group = 'com.qa'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenium WebDriver
+    implementation "org.seleniumhq.selenium:selenium-java:4.11.0"
+
+    // WebDriverManager (automatically downloads ChromeDriver)
+    implementation "io.github.bonigarcia:webdrivermanager:5.4.1"
+
+    // TestNG for test framework
+    testImplementation "org.testng:testng:7.8.0"
+    
+    // Apache Commons for utilities
+    implementation "org.apache.commons:commons-lang3:3.12.0"
+}
+
+test {
+    useTestNG() {
+        suites 'src/main/resources/testng.xml'
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
+        exceptionFormat "full"
+        showStandardStreams = true
+    }
+    // Increase timeout for slow Best Buy pages
+    systemProperty "testng.timeout", "300000"
+}
+

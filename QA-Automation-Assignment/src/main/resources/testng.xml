@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BestBuyAutomationSuite" parallel="false" thread-count="1">
+    
+    <parameter name="browser" value="chrome"/>
+    
+    <test name="AddToCartWorkflowTests" enabled="true">
+        <classes>
+            <class name="tests.AddToCartWorkflowTest">
+                <methods>
+                    <include name="verifyAddToCartWorkflow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite> 
